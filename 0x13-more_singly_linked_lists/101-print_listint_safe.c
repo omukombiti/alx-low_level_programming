@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- *  * print_listint_safe - function that prints a safe linked listint with a loop.
- *   * @head: data type double pointer the head/next node
+ *  * print_listint_safe - function  prints  safe linked listint with a loop.
+ *   * @head: double pointer the head/next node
  *    * Return: new_node
  *     */
 size_t print_listint_safe(const listint_t *head)

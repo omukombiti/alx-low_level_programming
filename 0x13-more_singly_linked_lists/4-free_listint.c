@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *  * free_listint - frees a linked list
+ *  * free_listint - free a linked list
  *   * @head: linked list
  *    */
 
@@ -12,10 +12,10 @@ void free_listint(listint_t *head)
 			if (head == NULL) /* account for no linked list */
 						return;
 
-				while (head != NULL) /* have ptr keep track of head node and free */
+				while (head != NULL) /* have the ptr keep track of head node and free */
 						{
 									ptr = head;
-											head = head->next; /* move to next node while ptr frees prior */
+											head = head->next; /* move to the  next node while ptr frees prior */
 													free(ptr);
 														}
 }
